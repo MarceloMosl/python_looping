@@ -8,7 +8,6 @@ while (number.isnumeric() == False or n.isnumeric() == False or len(number) < in
   
 n = int(n)
 number = int(number)  
-
 nth_digit = (number // (10 ** (n - 1))) % 10
 
 def ordinal(n):
